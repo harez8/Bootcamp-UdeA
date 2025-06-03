@@ -1,11 +1,12 @@
-import javax.swing.plaf.synth.SynthOptionPaneUI;
+
+import polimorfismo.*;
 import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //Ingreso de datos del emprendedor
-        System.out.println("Que tipo de persona desea ingresar? (1: Emprendedor, 2: Mentor: )");
+        System.out.println("Que tipo de persona desea ingresar? (1: polimorfismo.Emprendedor, 2: polimorfismo.Mentor: )");
         int tipo = Integer.parseInt(sc.nextLine());
 
         System.out.println("Ingrese el nombre: ");
@@ -58,7 +59,7 @@ public class App {
             Mentor mentor = new Mentor(nombre, documento, ciudad, area);
 
             System.out.println("--------------------");
-            System.out.println("Mentor Registrado");
+            System.out.println("polimorfismo.Mentor Registrado");
             mentor.mostrarDatosBasicos();
         } else{
             System.out.println("Opcion no valida");
