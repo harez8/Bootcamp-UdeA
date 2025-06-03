@@ -1,6 +1,6 @@
 package polimorfismo;
 
-public class Persona {
+public abstract class Persona {
     protected String nombre;
     protected String documento;
     protected String sector;
@@ -28,4 +28,6 @@ public class Persona {
         System.out.println("Sector: " + sector);
         System.out.println("Ciudad: " + ciudad);
     }
+    //Metodo abstracto sobreeescrito por subclases
+    public abstract void mostrarResumen();
 }
