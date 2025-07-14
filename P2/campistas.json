@@ -1,0 +1,44 @@
+[
+ {
+   "id": 1,
+   "nombre": "Laura Torres",
+   "documento": "123456789",
+   "genero_nacimiento": "F",
+   "activo": true
+ },
+ {
+   "id": 2,
+   "nombre": "Valentina García",
+   "documento": "987654321",
+   "genero_nacimiento": "F",
+   "activo": false
+ },
+ {
+   "id": 3,
+   "nombre": "Emmanuel Rodríguez",
+   "documento": "456789123",
+   "genero_nacimiento": "M",
+   "activo": true
+ },
+ {
+   "id": 4,
+   "nombre": "Xiomara Martínez",
+   "documento": "789123456",
+   "genero_nacimiento": "F",
+   "activo": true
+ },
+ {
+   "id": 5,
+   "nombre": "Diego López",
+   "documento": "321654987",
+   "genero_nacimiento": "M",
+   "activo": true
+ },
+ {
+   "id": 6,
+   "nombre": "Celeny Ramírez",
+   "documento": "654987321",
+   "genero_nacimiento": "F",
+   "activo": false
+ }
+]
